@@ -1,0 +1,282 @@
+<!-- CABEÇALHO COM LOGO E NOME À ESQUERDA -->
+<header class="header">
+  <div class="logo-container">
+    <img src="Logo-Consultoria.jpeg" alt="Logo Elite Performance" class="logo-img" />
+    <span class="brand-name">Elite Performance</span>
+  </div>
+</header>
+
+<!-- SEÇÃO 1: HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <!-- 1. TÍTULO PRIMEIRO -->
+    <h1 class="hero-title">
+      Olá, sou o <span class="highlight">Eduardo</span>, seu nutricionista
+    </h1>
+
+    <!-- 2. FOTO DO NUTRI ABAIXO DO TÍTULO -->
+    <div class="hero-image-container">
+      <img src="Foto-Dudu.jpeg" alt="Eduardo Paes Nutricionista" class="hero-image" />
+    </div>
+
+    <!-- 3. DESCRIÇÃO ABAIXO DA FOTO -->
+    <p class="hero-description">
+      Nutrição baseada em evidências para quem quer emagrecer, ganhar massa muscular e buscar saúde.
+    </p>
+
+    <!-- 4. BOTÃO DO WHATSAPP -->
+    <a 
+      href="https://wa.me/5585987389242?text=Olá,%20Eduardo!%20Quero%20mudar%20meu%20físico." 
+      target="_blank" 
+      class="cta-button"
+    >
+      Quero mudar meu físico
+    </a>
+  </div>
+</section>
+
+<!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+<a 
+  href="https://wa.me/5585987389242?text=Olá,%20Eduardo!%20Quero%20mudar%20meu%20físico." 
+  class="whatsapp-btn" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  aria-label="Contato via WhatsApp"
+>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon" />
+</a>
+<!-- SEÇÃO 2: PONTOS DE DOR -->
+<section class="dores">
+  <div class="header-secao">
+    <h2 class="titulo-secao">Talvez você já tenha passado por isso:</h2>
+  </div>
+
+  <div class="cards-container">
+    <!-- Card 1 -->
+    <div class="card-dor">
+      <div class="icon-wrapper icon-red">
+        <span class="icon">🍽️</span>
+      </div>
+      <p class="card-text">Não sabe exatamente o que comer para atingir seu objetivo.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card-dor">
+      <div class="icon-wrapper icon-orange">
+        <span class="icon">📉</span>
+      </div>
+      <p class="card-text">Treina com constância, mas não vê o resultado que esperava.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card-dor">
+      <div class="icon-wrapper icon-blue">
+        <span class="icon">🧭</span>
+      </div>
+      <p class="card-text">Fica perdido com informações contraditórias.</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card-dor">
+      <div class="icon-wrapper icon-purple">
+        <span class="icon">💔</span>
+      </div>
+      <p class="card-text">Já teve acompanhamento, mas se sentiu desamparado.</p>
+    </div>
+  </div>
+
+  <!-- Frase de destaque em baixo -->
+  <p class="frase-destaque">
+    O problema nem sempre é <span class="highlight">falta de disciplina</span>. Muitas vezes, é falta de um <span class="highlight">bom acompanhamento</span> e uma dieta variada.
+  </p>
+</section>
+
+<!-- SEÇÃO 3: A CONSULTORIA -->
+<section class="consultoria">
+  <div class="consultoria-container">
+    <h2 class="consultoria-titulo">Conheça minha consultoria</h2>
+    <p class="consultoria-subtitulo">
+      Quero te ajudar a ficar em forma sem abrir mão da sua saúde.
+    </p>
+
+    <div class="consultoria-cards">
+      <!-- Card 1 -->
+      <div class="card-consultoria">
+        <div class="icon-wrapper icon-green">
+          <span class="icon">💬</span>
+        </div>
+        <div class="card-consultoria-content">
+          <h3>Suporte VIP 24h pelo WhatsApp</h3>
+          <p>Sim, você terá acesso livre ao meu WhatsApp para tirar dúvidas.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card-consultoria">
+        <div class="icon-wrapper icon-orange">
+          <span class="icon">🔄</span>
+        </div>
+        <div class="card-consultoria-content">
+          <h3>Ajustes sempre que necessários</h3>
+          <p>
+            Durante nosso acompanhamento, a quantidade de ajustes é ilimitada, sem precisar esperar 1 mês.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card-consultoria">
+        <div class="icon-wrapper icon-blue">
+          <span class="icon">📱</span>
+        </div>
+        <div class="card-consultoria-content">
+          <h3>Plano via aplicativo exclusivo</h3>
+          <p>
+            Sua dieta na palma da mão: sem lista em PDF e sem precisar imprimir nada.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card-consultoria">
+        <div class="icon-wrapper icon-red">
+          <span class="icon">🥗</span>
+        </div>
+        <div class="card-consultoria-content">
+          <h3>Alimentação personalizada</h3>
+          <p>Sua dieta será 100% baseada nos alimentos que você realmente gosta de comer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEÇÃO 4: RESULTADOS / PROVA SOCIAL -->
+<section class="resultados">
+  <div class="resultados-container">
+    <h2 class="resultados-titulo">Prova Social</h2>
+    <p class="resultados-subtitulo">
+      Resultados reais de quem decidiu <span class="highlight">mudar de vida</span>.
+    </p>
+
+    <!-- CARROSSEL DE PRINTS -->
+    <div class="carrossel-wrapper">
+      <div class="carrossel-card" (click)="abrirZoom(depoimentos[currentIndex])">
+        <img 
+          [src]="depoimentos[currentIndex]" 
+          alt="Depoimento de Paciente" 
+          class="print-whatsapp"
+        />
+        <div class="zoom-badge">🔍 Clique para ampliar</div>
+      </div>
+
+      <!-- CONTROLES DO CARROSSEL -->
+      <div class="carrossel-controles">
+        <button class="btn-nav" (click)="depoimentoAnterior()" type="button" aria-label="Anterior">‹</button>
+        
+        <!-- BARRAS / INDICADORES VERMELHOS -->
+        <div class="indicadores">
+          <span 
+            *ngFor="let item of depoimentos; let i = index" 
+            class="indicador" 
+            [class.ativo]="i === currentIndex"
+            (click)="irParaDepoimento(i)">
+          </span>
+        </div>
+
+        <button class="btn-nav" (click)="proximoDepoimento()" type="button" aria-label="Próximo">›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL DE ZOOM DA IMAGEM -->
+<div class="modal-zoom" *ngIf="selectedImage" (click)="fecharZoom()">
+  <span class="fechar-modal">&times;</span>
+  <img [src]="selectedImage" alt="Print Ampliado" class="imagem-ampliada" (click)="$event.stopPropagation()" />
+</div>
+<!-- SEÇÃO 5: SOBRE O NUTRICIONISTA -->
+<section class="sobre-nutri">
+  <div class="sobre-nutri-container">
+    <!-- Título no Topo -->
+    <h2 class="sobre-nutri-titulo">Quem vai me acompanhar nesse processo?</h2>
+    <p class="sobre-nutri-subtitulo">Conheça o seu Nutricionista</p>
+
+    <!-- Foto no Meio -->
+    <div class="foto-nutri-wrapper">
+      <img src="Foto-Dudu2.jpeg" alt="Eduardo Paes Nutricionista" class="foto-nutri" />
+    </div>
+
+    <!-- Apresentação e Redes/Contatos Embaixo -->
+    <div class="bio-nutri-card">
+      <p class="bio-texto">
+        Olá, sou o <span class="highlight">Eduardo Paes</span>, nutricionista e pós-graduando em <strong>Nutrição Esportiva e Hipertrofia</strong>. 
+      </p>
+      <p class="bio-texto">
+        São <strong>6 anos de experiência</strong> e dedicação ao estudo da nutrição e do treinamento. Hoje utilizo esse conhecimento para desenvolver estratégias personalizadas, práticas e baseadas em evidências para cada pessoa que acompanho.
+      </p>
+
+      <!-- BOTÕES DE CONTATO E REDE SOCIAL -->
+      <div class="contatos-nutri">
+        <a href="https://instagram.com/nutrieduardopaes" target="_blank" class="btn-contato">
+          <span class="icon-social">📸</span>
+          <span class="text-social">@nutrieduardopaes</span>
+        </a>
+        <a href="mailto:nutrieduardopaes@gmail.com" class="btn-contato">
+          <span class="icon-social">✉️</span>
+          <span class="text-social">nutrieduardopaes@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SEÇÃO 6: DÚVIDAS FREQUENTES (FAQ) -->
+<section class="faq">
+  <div class="faq-container">
+    <h2 class="faq-titulo">Dúvidas Frequentes</h2>
+    <div class="linha-decorativa"></div>
+    <p class="faq-subtitulo">Tudo o que você precisa saber antes de começarmos.</p>
+
+    <div class="faq-lista">
+      <div 
+        *ngFor="let item of faqs; let i = index" 
+        class="faq-item" 
+        [class.ativo]="item.aberto"
+        (click)="toggleFaq(i)"
+      >
+        <div class="faq-pergunta">
+          <h3>{{ item.pergunta }}</h3>
+          <span class="faq-icon">{{ item.aberto ? '−' : '+' }}</span>
+        </div>
+        
+        <div class="faq-resposta" *ngIf="item.aberto">
+          <p>{{ item.resposta }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RODAPÉ (FOOTER) -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3 class="footer-logo">EDUARDO PAES</h3>
+      <p class="footer-tagline">Nutrição consciente e baseada em evidências.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://instagram.com/nutrieduardopaes" target="_blank" rel="noopener noreferrer">
+        📸 Instagram
+      </a>
+      <span class="footer-divisor">•</span>
+      <a href="mailto:nutrieduardopaes@gmail.com">
+        ✉️ E-mail
+      </a>
+    </div>
+
+    <div class="footer-copy">
+      <p>&copy; 2026 Eduardo Paes. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
