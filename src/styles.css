@@ -1,9 +1,9 @@
 :root {
-  --bg-dark: #121212;
-  --bg-card: #181818;
-  --primary-red: #e50914;
-  --text-main: #ffffff;
-  --text-muted: #aaaaaa;
+  --bg-dark: #090d18;
+  --bg-card: #0f172a;
+  --primary-color: #0a81c5;
+  --text-main: #f3f3f3;
+  --text-muted: #9ba3b4;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   background-color: var(--bg-dark);
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #162038;
 }
 
 .logo-container {
@@ -65,7 +65,7 @@ body {
 }
 
 .highlight {
-  color: var(--primary-red);
+  color: var(--primary-color);
 }
 
 .hero-image-container {
@@ -94,8 +94,8 @@ body {
   display: block;
   width: 100%;
   max-width: 340px;
-  background-color: var(--primary-red);
-  color: #ffffff;
+  background-color: var(--primary-color);
+  color: #f3f3f3;
   padding: 16px 20px;
   border-radius: 8px;
   font-weight: bold;
@@ -103,12 +103,13 @@ body {
   font-size: 1rem;
   text-align: center;
   box-sizing: border-box;
+  box-shadow: 0px 4px 14px rgba(10, 129, 197, 0.35);
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  background-color: #d40707;
+  background-color: #086da7;
 }
 
 /* BOTÃO FLUTUANTE DO WHATSAPP */
@@ -136,14 +137,15 @@ body {
   width: 32px;
   height: 32px;
 }
+
 /* ==========================================
    SEÇÃO 2: PONTOS DE DOR
    ========================================== */
 .dores {
   padding: 40px 20px;
-  background-color: #181818;
-  border-top: 1px solid #222222;
-  border-bottom: 1px solid #222222;
+  background-color: var(--bg-card);
+  border-top: 1px solid #162038;
+  border-bottom: 1px solid #162038;
 }
 
 .header-secao {
@@ -167,8 +169,8 @@ body {
 }
 
 .card-dor {
-  background-color: #222222;
-  border: 1px solid #2e2e2e;
+  background-color: #131c31;
+  border: 1px solid #1d2a4a;
   border-radius: 12px;
   padding: 20px;
   display: flex;
@@ -182,8 +184,8 @@ body {
 .card-dor:hover,
 .card-dor:active {
   transform: translateY(-3px);
-  border-color: rgba(229, 9, 20, 0.5);
-  box-shadow: 0px 6px 16px rgba(229, 9, 20, 0.12);
+  border-color: rgba(10, 129, 197, 0.6);
+  box-shadow: 0px 6px 16px rgba(10, 129, 197, 0.2);
 }
 
 .icon-wrapper {
@@ -220,17 +222,17 @@ body {
 }
 
 .frase-destaque .highlight {
-  color: var(--primary-red);
+  color: var(--primary-color);
   font-weight: bold;
 }
 
 /* ==========================================
-   SEÇÃO 3: A CONSULTORIA (COM FUNDO CINZA)
+   SEÇÃO 3: A CONSULTORIA
    ========================================== */
 .consultoria {
   padding: 40px 20px;
-  background-color: #181818; /* Plano cinza unificado com a Seção 2 */
-  border-bottom: 1px solid #222222;
+  background-color: var(--bg-card);
+  border-bottom: 1px solid #162038;
 }
 
 .consultoria-container {
@@ -241,7 +243,7 @@ body {
 .consultoria-titulo {
   font-size: 1.7rem;
   font-weight: bold;
-  color: var(--primary-red);
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 8px;
 }
@@ -261,10 +263,9 @@ body {
   gap: 16px;
 }
 
-/* CARDS SOBRE O PLANO CINZA */
 .card-consultoria {
-  background-color: #222222; /* Fundo do card um pouco mais claro para destacar do cinza da seção */
-  border: 1px solid #2e2e2e;
+  background-color: #131c31;
+  border: 1px solid #1d2a4a;
   border-radius: 12px;
   padding: 20px;
   display: flex;
@@ -274,12 +275,11 @@ body {
   transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Interação ao passar o dedo / clicar */
 .card-consultoria:hover,
 .card-consultoria:active {
   transform: translateY(-3px);
-  border-color: rgba(229, 9, 20, 0.5);
-  box-shadow: 0px 6px 16px rgba(229, 9, 20, 0.12);
+  border-color: rgba(10, 129, 197, 0.6);
+  box-shadow: 0px 6px 16px rgba(10, 129, 197, 0.2);
 }
 
 .card-consultoria-content h3 {
@@ -302,7 +302,7 @@ body {
 .resultados {
   padding: 40px 20px;
   background-color: var(--bg-dark);
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #162038;
 }
 
 .resultados-container {
@@ -314,7 +314,7 @@ body {
 .resultados-titulo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: var(--primary-red);
+  color: var(--primary-color);
   margin-bottom: 8px;
 }
 
@@ -327,7 +327,7 @@ body {
 }
 
 .resultados-subtitulo .highlight {
-  color: var(--primary-red);
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -343,11 +343,11 @@ body {
   position: relative;
   width: 100%;
   max-width: 320px;
-  background-color: #181818;
-  border: 1px solid #282828;
+  background-color: var(--bg-card);
+  border: 1px solid #1d2a4a;
   border-radius: 16px;
   padding: 12px;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   overflow: hidden;
   box-sizing: border-box;
@@ -357,7 +357,7 @@ body {
 .carrossel-card:hover,
 .carrossel-card:active {
   transform: scale(1.02);
-  border-color: rgba(229, 9, 20, 0.5);
+  border-color: rgba(10, 129, 197, 0.6);
 }
 
 .print-whatsapp {
@@ -374,17 +374,18 @@ body {
   bottom: 18px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #ffffff;
+  background-color: rgba(9, 13, 24, 0.85);
+  color: #f3f3f3;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: bold;
   backdrop-filter: blur(4px);
   pointer-events: none;
+  border: 1px solid rgba(10, 129, 197, 0.3);
 }
 
-/* CONTROLES E INDICADORES VERMELHOS */
+/* CONTROLES E INDICADORES */
 .carrossel-controles {
   display: flex;
   align-items: center;
@@ -394,9 +395,9 @@ body {
 }
 
 .btn-nav {
-  background-color: #222222;
+  background-color: #131c31;
   color: var(--text-main);
-  border: 1px solid #333333;
+  border: 1px solid #1d2a4a;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -405,13 +406,13 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .btn-nav:hover,
 .btn-nav:active {
-  background-color: var(--primary-red);
-  border-color: var(--primary-red);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .indicadores {
@@ -423,7 +424,7 @@ body {
 .indicador {
   width: 10px;
   height: 10px;
-  background-color: #333333;
+  background-color: #1d2a4a;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -432,7 +433,7 @@ body {
 .indicador.ativo {
   width: 24px;
   border-radius: 12px;
-  background-color: var(--primary-red);
+  background-color: var(--primary-color);
 }
 
 /* MODAL DE ZOOM */
@@ -442,7 +443,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(9, 13, 24, 0.95);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -463,18 +464,19 @@ body {
   position: absolute;
   top: 20px;
   right: 25px;
-  color: #ffffff;
+  color: #f3f3f3;
   font-size: 2.5rem;
   font-weight: bold;
   cursor: pointer;
 }
+
 /* ==========================================
    SEÇÃO 5: SOBRE O NUTRICIONISTA
    ========================================== */
 .sobre-nutri {
   padding: 40px 20px;
-  background-color: #181818;
-  border-bottom: 1px solid #222222;
+  background-color: var(--bg-card);
+  border-bottom: 1px solid #162038;
 }
 
 .sobre-nutri-container {
@@ -486,7 +488,7 @@ body {
 .sobre-nutri-titulo {
   font-size: 1.6rem;
   font-weight: bold;
-  color: var(--primary-red);
+  color: var(--primary-color);
   line-height: 1.3;
   margin-bottom: 6px;
 }
@@ -506,8 +508,8 @@ body {
   max-width: 320px;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
-  border: 1px solid #282828;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.6);
+  border: 1px solid #1d2a4a;
 }
 
 .foto-nutri {
@@ -518,8 +520,8 @@ body {
 }
 
 .bio-nutri-card {
-  background-color: #222222;
-  border: 1px solid #2e2e2e;
+  background-color: #131c31;
+  border: 1px solid #1d2a4a;
   border-radius: 14px;
   padding: 24px 20px;
   text-align: left;
@@ -538,7 +540,7 @@ body {
 }
 
 .bio-texto .highlight {
-  color: var(--primary-red);
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -548,17 +550,17 @@ body {
   flex-direction: column;
   gap: 10px;
   padding-top: 16px;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #1d2a4a;
 }
 
 .btn-contato {
   display: flex;
   align-items: center;
   gap: 12px;
-  background-color: #181818;
+  background-color: var(--bg-dark);
   padding: 12px 14px;
   border-radius: 10px;
-  border: 1px solid #282828;
+  border: 1px solid #1d2a4a;
   color: var(--text-main);
   text-decoration: none;
   font-size: 0.88rem;
@@ -569,7 +571,7 @@ body {
 .btn-contato:hover,
 .btn-contato:active {
   transform: translateY(-2px);
-  border-color: var(--primary-red);
+  border-color: var(--primary-color);
 }
 
 .icon-social {
@@ -577,15 +579,16 @@ body {
 }
 
 .text-social {
-  word-break: break-all; /* Garante que o e-mail não vaze na tela em celulares menores */
+  word-break: break-all;
 }
+
 /* ==========================================
    SEÇÃO 6: DÚVIDAS FREQUENTES (FAQ)
    ========================================== */
 .faq {
   padding: 40px 20px;
   background-color: var(--bg-dark);
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #162038;
 }
 
 .faq-container {
@@ -597,15 +600,14 @@ body {
 .faq-titulo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #ffffff; /* Título em branco como solicitado */
+  color: #f3f3f3;
   margin-bottom: 8px;
 }
 
-/* Barra Decorativa Vermelha abaixo do Título */
 .linha-decorativa {
   width: 50px;
   height: 4px;
-  background-color: var(--primary-red);
+  background-color: var(--primary-color);
   border-radius: 2px;
   margin: 0 auto 12px auto;
 }
@@ -626,21 +628,20 @@ body {
 }
 
 .faq-item {
-  background-color: #181818;
-  border: 1px solid #282828;
+  background-color: var(--bg-card);
+  border: 1px solid #1d2a4a;
   border-radius: 12px;
   padding: 16px 18px;
   cursor: pointer;
   transition: all 0.25s ease;
 }
 
-/* Interação ao Clicar / Abrir a Sanfona */
 .faq-item:hover,
 .faq-item:active,
 .faq-item.ativo {
-  border-color: rgba(229, 9, 20, 0.6); /* Borda vermelha ao abrir/tocar */
-  box-shadow: 0px 4px 16px rgba(229, 9, 20, 0.12);
-  background-color: #1e1e1e;
+  border-color: rgba(10, 129, 197, 0.6);
+  box-shadow: 0px 4px 16px rgba(10, 129, 197, 0.2);
+  background-color: #131c31;
 }
 
 .faq-pergunta {
@@ -661,21 +662,20 @@ body {
 .faq-icon {
   font-size: 1.3rem;
   font-weight: bold;
-  color: var(--primary-red); /* Ícone vermelho */
+  color: var(--primary-color);
   flex-shrink: 0;
   line-height: 1;
 }
 
-/* RESPOSTA DA SANFONA */
 .faq-resposta {
   margin-top: 12px;
   padding-top: 12px;
-  border-top: 1px solid #2e2e2e;
+  border-top: 1px solid #1d2a4a;
 }
 
 .faq-resposta p {
   font-size: 0.88rem;
-  color: #cccccc;
+  color: #d1d5db;
   line-height: 1.5;
   margin: 0;
 }
@@ -685,8 +685,8 @@ body {
    ========================================== */
 .footer {
   padding: 35px 20px 25px 20px;
-  background-color: #0d0d0d; /* Tom levemente mais escuro para fechar a página */
-  border-top: 1px solid #222222;
+  background-color: #060911;
+  border-top: 1px solid #162038;
   text-align: center;
 }
 
@@ -722,7 +722,7 @@ body {
 }
 
 .footer-links a {
-  color: #cccccc;
+  color: #9ba3b4;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -731,22 +731,22 @@ body {
 
 .footer-links a:hover,
 .footer-links a:active {
-  color: var(--primary-red);
+  color: var(--primary-color);
 }
 
 .footer-divisor {
-  color: #444444;
+  color: #1d2a4a;
   font-size: 0.8rem;
 }
 
 .footer-copy {
-  border-top: 1px solid #1a1a1a;
+  border-top: 1px solid #162038;
   padding-top: 14px;
   width: 100%;
 }
 
 .footer-copy p {
   font-size: 0.75rem;
-  color: #666666;
+  color: #6b7280;
   margin: 0;
 }
