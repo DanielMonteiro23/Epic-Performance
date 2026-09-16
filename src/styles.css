@@ -744,3 +744,75 @@ body {
   color: #6b7280;
   margin: 0;
 }
+/* RODAPÉ E CONTATO */
+.footer-contact {
+  background-color: #070a13;
+  border-top: 1px solid #162038;
+  padding: 40px 20px 20px 20px;
+  color: var(--text-main, #F3F3F3);
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.footer-brand h3 {
+  color: #0A81C5;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.footer-role {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.footer-specialties {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.footer-links h4 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #F3F3F3;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-link {
+  color: #F3F3F3;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #0A81C5;
+}
+
+.footer-bottom {
+  max-width: 1100px;
+  margin: 30px auto 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #131c31;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #64748b;
+}
