@@ -29,9 +29,8 @@ body {
 }
 
 .logo-horizontal {
-  height: 46px;
+  height: 42px;
   width: auto;
-  max-width: 250px;
   object-fit: contain;
   display: block;
 }
