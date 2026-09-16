@@ -815,3 +815,23 @@ body {
   font-size: 0.85rem;
   color: #64748b;
 }
+:root {
+  --bg-dark: #090D18;
+  --bg-card: #101626;
+  --primary-color: #0A81C5;
+  --text-main: #F3F3F3;
+  --text-muted: #94a3b8;
+}
+
+/* Ajuste fino do botão principal para o Azul Oficial */
+.btn-primary, button[type="submit"], .hero-cta {
+  background-color: var(--primary-color);
+  color: var(--text-main);
+  border: none;
+  font-weight: 600;
+  transition: filter 0.2s ease;
+}
+
+.btn-primary:hover, .hero-cta:hover {
+  filter: brightness(1.15);
+}
