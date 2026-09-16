@@ -15,7 +15,7 @@ body {
 
 /* CABEÇALHO */
 .header {
-  padding: 15px 20px;
+  padding: 12px 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -26,20 +26,14 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
-.logo-img {
-  height: 40px;
+.logo-horizontal {
+  height: 46px;
   width: auto;
-  border-radius: 6px;
-}
-
-.brand-name {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: var(--text-main);
-  letter-spacing: 0.5px;
+  max-width: 250px;
+  object-fit: contain;
+  display: block;
 }
 
 /* HERO SECTION */
